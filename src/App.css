@@ -1,38 +1,102 @@
 .App {
+  background-color: #1F1F1F;
   text-align: center;
+  min-height: 137vh;
+  
+ 
+ 
+
 }
 
-.App-logo {
-  height: 40vmin;
+.Arde-bg{
+  background-color: #1F1F1F;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  caret-color: transparent;
   pointer-events: none;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Arde-bg img{
+  position: relative;
+  top: -200px;
+  width: 1500px;
+  height: 1500px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Arde-body{
+  position: relative;
+  display: grid;
+  grid-template-rows: 170px 242px 74px 28px 67px 76px 92.54px;
+  grid-row-end: "Arde-footer";
+}
+
+.Arde-nav{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFFFFF;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  caret-color: transparent;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.Arde-main-1{
+  display: flex;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 58px;
+  line-height: 74px;
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+  caret-color: transparent;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Arde-main-2{
+  display: flex;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 67px;
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+  caret-color: transparent;
 }
+.Arde-emailUsButton{
+  display: flex;
+
+  justify-content: center;
+
+}
+
+.Arde-emailUsButton button{
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28.9688px;
+  line-height: 54px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  caret-color: transparent;
+
+  width: 412px;
+  border-color: white;
+  border-width: 7px;
+  background: none;
+
+}
+
+
